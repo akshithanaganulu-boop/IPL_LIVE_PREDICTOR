@@ -4,7 +4,7 @@ import pandas as pd
 st.title("📊 Team Performance Analysis")
 
 # Load dataset
-matches = pd.read_csv("data/matches.csv")
+matches = pd.read_csv("matches.csv")
 
 st.success("Dataset Loaded Successfully!")
 

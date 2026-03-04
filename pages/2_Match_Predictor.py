@@ -8,7 +8,7 @@ st.title("🏏 IPL Match Win Predictor")
 # -----------------------------
 # Load Dataset
 # -----------------------------
-matches = pd.read_csv("data/matches.csv")
+matches = pd.read_csv("matches.csv")
 
 # Remove matches without winner
 matches = matches.dropna(subset=['winner'])
